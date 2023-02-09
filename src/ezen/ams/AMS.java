@@ -51,6 +51,8 @@ public class AMS {
 					System.exit(0);
 				}
 			});
+			
+			System.out.println("Git Test");
 
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e.toString(), "프로그램을 실행할 수 없습니다.", JOptionPane.ERROR_MESSAGE);
