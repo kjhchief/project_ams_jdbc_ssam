@@ -13,7 +13,6 @@ public class JdbcAccountRepositoryExample {
 			// 신규계좌 등록 테스트
 //			Account account = new Account("2222-2222-3333", "홍길동", 1111, 10000000);
 //			repository.addAccount(account);
-			
 //			MinusAccount ma = new MinusAccount("5555-3333-4444", "박찬호", 1111, 10000, 100000000);
 //			repository.addAccount(ma);
 			
@@ -44,7 +43,7 @@ public class JdbcAccountRepositoryExample {
 			}
 			
 			// 계좌번호로 삭제 테스트
-			boolean deleted = repository.removeAccount("2222-2222-3333");
+			boolean deleted = repository.removeAccount("2222-2222-333");
 			if(deleted) {
 				System.out.println("삭제 완료..");
 			}else {
